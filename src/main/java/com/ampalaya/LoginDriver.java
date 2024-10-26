@@ -45,7 +45,7 @@ public class LoginDriver {
         if (DriverData.verifyLogin(email, password)) {
             logdrivmes.setText("Login successful!");
             // Proceed to the next scene or functionality
-            Main.changeScene("dashboard.fxml");
+            Main.changeScene("homepagedriver.fxml");
         } else {
             logdrivmes.setText("Invalid email or password.");
         }

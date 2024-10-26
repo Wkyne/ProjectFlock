@@ -48,7 +48,7 @@ public class LoginUser {
         if (UserData.verifyLogin(email, password)) {
             messageLabel.setText("Login successful!");
             // Proceed to the next scene or functionality
-            Main.changeScene("dashboard.fxml");
+            Main.changeScene("homepage.fxml");
         } else {
             messageLabel.setText("Invalid email or password.");
         }
